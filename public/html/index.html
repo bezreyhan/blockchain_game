@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebRTC Test</title>
+</head>
+<body>
+  <form>
+    <input type='text' placeholder='your id' id="userId" />
+    <button type='text' id='submitIdBtn'>Submit</button>
+  </form>
+  
+  <form>
+    <input type='text' placeholder='friends id' id="friendId" />
+    <button type="text" id="connectBtn">connect</button>
+  </form>
+
+  <form>
+    <textarea id='message'></textarea>
+    <input type='text' placeholder='send message to whom?' id="receiverId" />
+    <button type="text" id="sendMessageBtn">SendMessage</button>
+  </form>
+
+  <script src="../js/peer.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
